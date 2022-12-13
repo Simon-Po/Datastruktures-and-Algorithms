@@ -15,7 +15,8 @@ public class Queue {
         if(!isFull()){
             this.arr[++front] = i;
         } else {
-            System.out.println("Queue is Full");
+            this.front = back;
+            this.arr[++front] = i;
         }
     }
 
@@ -23,7 +24,8 @@ public class Queue {
         if(!isEmpty()) {
             return String.valueOf(arr[this.front--]);
         } else {
-            return "Stack is empty";
+            this.front = size;
+            return String.valueOf(arr[this.front--]);
         }
     }
 

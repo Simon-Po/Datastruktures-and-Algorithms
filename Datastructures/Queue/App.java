@@ -4,7 +4,7 @@ public class App {
     public static void main(String[] args) {
         
 
-        Queue q = new Queue(100);
+        Queue q = new Queue(2);
 
         q.Enqueue(10);
         q.Enqueue(400);
