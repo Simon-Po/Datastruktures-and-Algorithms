@@ -1,4 +1,4 @@
-# Studying Datastructures and algorithms
+# Datastructures and algorithms
 - Roughly following the articles of : [programiz.com/dsa](https://www.programiz.com/dsa)
 - Also following the book Introduction to Algorithms, third edition from Ronald L. Rivest.
 - Also using youtube videos for resources where i might need them.
